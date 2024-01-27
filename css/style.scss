@@ -1,0 +1,183 @@
+$primaryColor: #f46f4c;
+header {
+    background-image: url(../img/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    background-attachment: fixed;
+    .navbar-brand {
+        color: $primaryColor;
+        text-transform: uppercase;
+    }
+}
+@media only screen and (max-width: 1300px) {
+    header {
+        height: 80vh;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    header{
+        height: 70vh;
+    }
+}
+@media only screen and (max-width: 1100px) {
+    header{
+        height: 60vh;
+    }
+}
+@media only screen and (max-width: 1050px) {
+    header{
+        height: 50vh;
+    }
+}
+@media only screen and (max-width: 800px) {
+    header {
+        height: 40vh;
+    }
+}
+
+
+
+.sec1 {
+    padding: 50px;
+    img {
+        width: 100%;
+    }
+    .sec1col {
+        padding: 120px;
+        h5 {
+            font-size: 50px;
+        }
+        @media only screen and (max-width: 1200px) {
+            h5 {
+                font-size: 40px;
+            }
+        }
+        @media only screen and (max-width: 1100px) {
+            h5 {
+                font-size: 30px;
+            }
+        }
+        @media only screen and (max-width: 500px) {
+            h5 {
+                font-size: 25px;
+            }
+        }
+        button {
+            background-color: $primaryColor;
+            color: white;
+        }
+    }
+    @media only screen and (max-width: 1300px) {
+        .sec1col {
+            padding: 90px;
+        }
+    }
+    @media only screen and (max-width: 1200px) {
+        .sec1col {
+            padding: 80px;
+        }
+    }
+    @media only screen and (max-width: 1100px) {
+        .sec1col {
+            padding: 70px;
+        }
+    }
+    @media only screen and (max-width: 1050px) {
+        .sec1col {
+            padding: 50px;
+        }
+    }
+    @media only screen and (max-width: 800px) {
+        .sec1col {
+            padding: 30px;
+        }
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .sec1 {
+        padding: 40px;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .sec1 {
+        padding: 30px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .sec1 {
+        padding: 20px;
+    }
+}
+
+.sec2 {
+    padding: 50px;
+    img {
+        width: 100%;
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .sec2 {
+        padding: 40px;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .sec2 {
+        padding: 30px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .sec2 {
+        padding: 20px;
+    }
+}
+
+.sec3 {
+    padding: 80px;
+    img {
+        height: 250px;
+    }
+}
+
+
+@media only screen and (max-width: 620px) {
+    .sec3 {
+        padding: 70px;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .sec3 {
+        padding: 60px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .sec3 {
+        padding: 50px;
+    }
+}
+@media only screen and (max-width: 620px) {
+    .sec3 {
+        padding: 40px;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .sec3 {
+        padding: 30px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .sec3 {
+        padding: 20px;
+    }
+}

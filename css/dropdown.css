@@ -1,0 +1,13 @@
+header {
+  background-image: url(../img/6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.sec1 {
+  margin: 1px;
+}
+.sec1 img {
+  width: 100%;
+}

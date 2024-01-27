@@ -1,0 +1,31 @@
+header {
+  background-image: url(../img/12.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+header .navbar-brand {
+  color: #f46f4c;
+  text-transform: uppercase;
+}
+
+.sec2 {
+  margin: 10px;
+}
+.sec2 img {
+  width: 100%;
+}
+
+.sec3 {
+  margin: 10px;
+}
+.sec3 img {
+  width: 100%;
+}
+
+.sec4 {
+  margin: 10px;
+}
+.sec4 img {
+  width: 100%;
+}
